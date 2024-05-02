@@ -1,3 +1,68 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+}
 
+.header {
+    background-color: #a8dcdd;
+    display: flex;
+}
+
+#logo {
+    max-width: 100px;
+}
+
+#login {
+    max-width: 100px;
+}
+
+#entrar {
+    display: block;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #e2989f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
 }
