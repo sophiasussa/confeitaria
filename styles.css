@@ -4,25 +4,33 @@
 }
 
 .header {
-    background-color: #a8dcdd;
+    background-color: #84D1D0;
     display: flex;
 }
 
 #logo {
-    max-width: 100px;
+    max-width: 500px;
+    margin-top: 10px;
 }
 
 #login {
-    max-width: 100px;
+    max-width: 90px;
+    margin-top: 10px;
+    margin-left: 150px;
 }
 
 #entrar {
     display: block;
+    margin-left: 123px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .search {
     display: flex;
     align-items: center;
+    padding-left: 400px;
 }
 
 input[type="text"] {
@@ -30,6 +38,7 @@ input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-right: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 button[type="submit"] {
@@ -39,17 +48,20 @@ button[type="submit"] {
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #f5717e;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color: #fafafa;
+    text-align: center;
+    box-shadow: 2px -2px 4px rgba(0, 0, 0, 0.2); /
 }
 
 nav ul li {
@@ -59,10 +71,68 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     padding: 10px 20px;
-    color: white;
+    color: #262626;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #555;
+    color: #e2989f;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.features {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    color: #333;
+}
+
+.feature p {
+    color: #666;
+}
+
+#foto1,
+#foto2,
+#foto3 {
+    max-width: 100px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
