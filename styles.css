@@ -148,10 +148,27 @@ h5{
     color: #666;
 }
 
-#foto1,
-#foto2,
-#foto3 {
-    max-width: 100px;
+.fototext {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.left {
+    margin-left: 200px;
+}
+
+.right {
+    margin-left: 40px;
+    margin-right: 150px;
+}
+
+.texto{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#foto {
+    border: 2px solid #dbdbdb; 
 }
 
 .footer {
