@@ -82,7 +82,7 @@ nav ul li a:hover {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #e2989f;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -92,8 +92,20 @@ nav ul li a:hover {
 }
 
 .button:hover {
-    background-color: #45a049;
+    background-color: #f5717e;
 }
+
+h1{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+h5{
+    padding-left: 40px; 
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+
 
 .features {
     background-color: #f9f9f9;
