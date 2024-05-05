@@ -151,6 +151,7 @@ h5{
 .fototext {
     display: flex;
     padding-bottom: 50px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
 }
 
 .left {
@@ -169,6 +170,10 @@ h5{
 
 #foto {
     border: 2px solid #dbdbdb; 
+}
+
+.textphoto {
+    position: relative;
 }
 
 .footer {
