@@ -131,8 +131,10 @@ nav ul li a:hover {
 }
 
 .footer {
-    background-color: #333;
+    background-color: #84D1D0;
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    font-size: 17px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
