@@ -79,22 +79,6 @@ nav ul li a:hover {
     color: #e2989f;
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #e2989f;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: #f5717e;
-}
-
 h1{
     padding-top: 20px;
     padding-left: 50px;
@@ -106,6 +90,34 @@ h5{
     font-weight: normal;
 }
 
+
+.video-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: #e2989f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.button:hover {
+    background-color: #f5717e;
+}
+
+.video1{
+    padding-left: 250px;
+}
 
 .features {
     background-color: #f9f9f9;
