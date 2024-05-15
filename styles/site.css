@@ -151,7 +151,7 @@ h5{
 .fototext {
     display: flex;
     padding-bottom: 50px;
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .left {
