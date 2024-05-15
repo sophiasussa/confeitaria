@@ -79,11 +79,49 @@ nav ul li a:hover {
     color: #e2989f;
 }
 
-h1{
+.receita-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.receita {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 400px;
+}
+
+.receita h2 {
+    color: #333;
+}
+
+main {
+    margin: 0 auto;
+    padding: 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 1; 
 }
+
+.nova-receita {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.nova-receita form {
+    display: flex;
+    flex-direction: column;
+}
+
+.nova-receita label, .nova-receita input, .nova-receita textarea, .nova-receita button {
+    margin-bottom: 10px;
+}
+
+
 .footer {
     background-color: #84D1D0;
     color: #fff;
