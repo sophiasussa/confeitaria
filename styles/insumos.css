@@ -79,11 +79,48 @@ nav ul li a:hover {
     color: #e2989f;
 }
 
-h1{
+.insumo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.insumo {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 400px;
+}
+
+.insumo h2 {
+    color: #333;
+}
+
+main {
+    margin: 0 auto;
+    padding: 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 1; 
 }
+
+.novo-insumo {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.novo-insumo form {
+    display: flex;
+    flex-direction: column;
+}
+
+.novo-insumo label, .novo-insumo input, .novo-insumo button {
+    margin-bottom: 10px;
+}
+
 .footer {
     background-color: #84D1D0;
     color: #fff;
