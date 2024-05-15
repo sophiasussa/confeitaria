@@ -92,6 +92,10 @@ main {
     align-items: center;
 }
 
+.perfil{
+    padding-left: 30px;
+}
+
 .avatar img {
     width: 100px;
     height: 100px;
@@ -107,6 +111,19 @@ main {
     margin-top: 30px;
 }
 
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.pedido, .tarefa, .relatorio {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 .footer {
     background-color: #84D1D0;

@@ -79,11 +79,72 @@ nav ul li a:hover {
     color: #e2989f;
 }
 
-h1{
+.relatorios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.relatorio {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.relatorio h2 {
+    color: #333;
+}
+
+.relatorio p {
+    color: #666;
+}
+
+.relatorio button {
+    background-color: #e2989f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.relatorio button:hover {
+    background-color: #f5717e;
+}
+
+main {
+    padding-bottom: 220px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 1; 
 }
+
+.botoes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botoes button {
+    background-color: #e2989f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botoes button:hover {
+    background-color: #f5717e;
+}
+
+
 .footer {
     background-color: #84D1D0;
     color: #fff;
