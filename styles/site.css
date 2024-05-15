@@ -55,30 +55,6 @@ button[type="submit"]:hover {
     background-color: #f5717e;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #fafafa;
-    text-align: center;
-    box-shadow: 2px -2px 4px rgba(0, 0, 0, 0.2); /
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #262626;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #e2989f;
-}
-
 h1{
     padding-top: 20px;
     padding-left: 50px;

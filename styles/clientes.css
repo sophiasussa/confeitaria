@@ -13,20 +13,6 @@
     margin-top: 10px;
 }
 
-#login {
-    max-width: 90px;
-    margin-top: 10px;
-    margin-left: 150px;
-}
-
-#entrar {
-    display: block;
-    margin-left: 123px;
-    text-decoration: none;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-
 .search {
     display: flex;
     align-items: center;
