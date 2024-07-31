@@ -1,6 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
 }
 
 .header {
@@ -61,7 +67,7 @@ nav ul {
     padding: 0;
     background-color: #fafafa;
     text-align: center;
-    box-shadow: 2px -2px 4px rgba(0, 0, 0, 0.2); /
+    box-shadow: 2px -2px 4px rgba(0, 0, 0, 0.2); 
 }
 
 nav ul li {
@@ -79,37 +85,51 @@ nav ul li a:hover {
     color: #e2989f;
 }
 
-.insumo-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.insumo {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    max-width: 400px;
-}
-
-.insumo h2 {
-    color: #333;
-}
-
 main {
-    margin: 0 auto;
-    padding: 20px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
-    position: relative;
-    z-index: 1; 
+    padding-bottom: 145px; 
+    position: relative; 
+}
+
+main::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.main-title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#toggle-form-button {
+    display: block;
+    margin: 0 auto 20px;
+    background-color: #e2989f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+#toggle-form-button:hover {
+    background-color: #f5717e;
 }
 
 .novo-insumo {
+    display: none;
     background-color: #f2f2f2;
     border-radius: 5px;
     padding: 20px;
+    margin: 20px 0;
 }
 
 .novo-insumo form {
@@ -117,8 +137,49 @@ main {
     flex-direction: column;
 }
 
-.novo-insumo label, .novo-insumo input, .novo-insumo button {
-    margin-bottom: 10px;
+.novo-insumo label {
+    margin-bottom: 5px;
+}
+
+.novo-insumo input, .novo-insumo button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.novo-insumo button {
+    background-color: #e2989f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.novo-insumo button:hover {
+    background-color: #f5717e;
+}
+
+.insumo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.insumo {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+.insumo h2 {
+    color: #333;
 }
 
 .footer {

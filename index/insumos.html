@@ -35,22 +35,11 @@
         </ul>
     </nav>
 
-    <h1>Insumos Disponíveis</h1>
-    <div class="insumo-list">
-        <div class="insumo">
-            <h2>Insumo #001</h2>
-            <p>Quantidade: 100</p>
-            <p>Preço Unitário: R$ 2.50</p>
-        </div>
-        <div class="insumo">
-            <h2>Insumo #002</h2>
-            <p>Quantidade: 50</p>
-            <p>Preço Unitário: R$ 3.00</p>
-        </div>
-    </div>
-
     <main>
-        <section class="novo-insumo">
+        <h1 class="main-title">Insumos Disponíveis</h1>
+        <button id="toggle-form-button">Adicionar Novo Insumo</button>
+        
+        <section class="novo-insumo" id="novo-insumo-form">
             <h2>Novo Insumo</h2>
             <form>
                 <label for="nome">Nome:</label>
@@ -62,6 +51,19 @@
                 <button type="submit">Adicionar Insumo</button>
             </form>
         </section>
+
+        <div class="insumo-list">
+            <div class="insumo">
+                <h2>Insumo #001</h2>
+                <p>Quantidade: 100</p>
+                <p>Preço Unitário: R$ 2.50</p>
+            </div>
+            <div class="insumo">
+                <h2>Insumo #002</h2>
+                <p>Quantidade: 50</p>
+                <p>Preço Unitário: R$ 3.00</p>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
@@ -70,5 +72,15 @@
         </div>
     </footer>
     
+    <script>
+        document.getElementById('toggle-form-button').addEventListener('click', function() {
+            var form = document.getElementById('novo-insumo-form');
+            if (form.style.display === 'none' || form.style.display === '') {
+                form.style.display = 'block';
+            } else {
+                form.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
